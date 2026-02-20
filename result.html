@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Baby Reveal</title><link rel="stylesheet" href="style.css"></head>
+<body class="girl"><div class="result-container"><div class="welcome">
+Welcome Baby
+</div>
+  
+  
+<div class="Baby-prayer">
+   Lina
+     <br>
+     <br>
+اللَّهُمَّ اجعلهُ/اجعلها قُرَّةَ عَيْنٍ لِوَالِدَيْهِ، وَارزُقْهُ/ارزُقْهَا الصِّحَّةَ وَالسَّلَامَةَ، وَأَنْبِتْهُ/أَنْبِتْهَا نَبَاتًا حَسَنًا، وَارزُقْهُ/ارزُقْهَا رُشْدًا وَحِكْمَةً، وَاجعَلْهُ/اجعلها مِنَ الصَّالِحِينَ الْمُلْتَزِمِينَ بِطَاعَتِكَ، وَاجعَلْ قَلْبَهُ/قَلْبَهَا مَلِيئًا بِالْإِيمَانِ، وَالْفَرَحَ وَالْبَرَكَةَ تُحِيطُ بِهِ/بِهَا، بَارِكْ فِي حَيَاتِهِ/حَيَاتِهَا وَاجعَلْهَا مَلِيئَةً بِالسَّعَادَةِ وَالنَّجَاحِ وَالرِّزْقِ الْحَلَالِ، وَاحْفَظْهُ/احْفَظْهَا مِنْ كُلِّ شَرٍّ، وَاحْفَظْهُ/احْفَظْهَا بِعَيْنِكَ الَّتِي لَا تَنَامُ، وَوَفِّقْ وَالِدَيْهِ لِطَاعَتِهِ/لطاعَتِها، وَلِبِنَائِهِ/لِبِنَائِها حَيَاةً سَعِيدَةً مُبَارَكَةً فِي طَاعَتِكَ، آمِينَ يَا رَبَّ الْعَالَمِينَ.
+
+  
+</div>
+  
+</div></div><audio id="music">
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+  
+  
+  
+  <script>
+
+let music = document.getElementById("music");
+
+/* play automatically */
+window.onload = function(){
+
+music.play().catch(function(){
+
+/* if blocked, play on click */
+document.body.addEventListener("click", function(){
+
+music.play();
+
+});
+
+});
+
+};
+
+</script></body>
+</html>
