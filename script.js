@@ -1,5 +1,5 @@
 // جنس الجنين لتحديد اللون عند آخر دائرة
-let realGender = "boy"; // "boy" أو "girl"
+let realGender = "girl"; // "boy" أو "girl"
 
 // جميع الدوائر
 let circles = document.querySelectorAll(".scratch");
